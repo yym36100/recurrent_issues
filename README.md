@@ -6,3 +6,8 @@
     // Disable buffering for stdout
     
     setvbuf(stdout, NULL, _IONBF, 0);
+//ram soft reset
+
+monitor reset
+load
+
